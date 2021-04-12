@@ -30,7 +30,7 @@ if (isset($_SESSION['logado']['email']) and isset($_SESSION['logado']['senha']))
         <form action="./rotinas/cadastrar-usuario.php" method="POST">
             <input type="text" name="nome" id="nome" placeholder="Nome" required />
             <input type="email" name="email" id="email" placeholder="E-mail" required />
-            <input type="password" name="senha1" id="senha" placeholder="Senha" onkeyup="validarSenha()" required />
+            <input type="password" name="senha1" id="senha" placeholder="Senha" onkeyup="validarSenha()" maxlength="8" required />
             <p> Já possui uma conta? <a href="./index.php"> Faça login. </a> </p>
             <input type="submit" value="Cadastrar">
         </form>
