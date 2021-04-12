@@ -37,7 +37,7 @@ function validarSenha() {
         maiusculo = false;
     }
 
-    if (!minimo || !maximo || !minusculo || !maiusculo) {
+    if (minimo || !maximo || !minusculo || !maiusculo) {
         document.getElementById("btnCadastrar").disabled = true; 
     } else {
         document.getElementById("btnCadastrar").disabled = false; 

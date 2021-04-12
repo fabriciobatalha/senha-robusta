@@ -25,5 +25,8 @@ if (!isset($_SESSION['logado']['email']) and !isset($_SESSION['logado']['senha']
     <body>
         <h1> Logado </h1>
         <a href="./rotinas/logout.php"> Sair </a>
+
+        <script src="./_js/bootstrap.min.js"></script>
+        <script src="./_js/script.js"></script>
     </body>
 </html>
