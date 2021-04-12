@@ -36,4 +36,10 @@ function validarSenha() {
         document.getElementById("maiusculo").innerHTML = "<span style='color: #ff0000'> nao tem maiusculo </span>";
         maiusculo = false;
     }
+
+    if (!minimo || !maximo || !minusculo || !maiusculo) {
+        document.getElementById("btnCadastrar").disabled = true; 
+    } else {
+        document.getElementById("btnCadastrar").disabled = false; 
+    }
 }
