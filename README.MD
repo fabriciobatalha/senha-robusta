@@ -38,4 +38,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ### Autor
 ---
 
-Feito com ❤️ por Fabrício S. Batalha, Rodrigo Belchior, Tiago Braga e Lindomar Marques 👋🏽 Entre em contato!
+Feito com ❤️ por Fabrício S. Batalha, Rodrigo Belchior, Tiago Braga e Lindomar Marques 👋🏽
