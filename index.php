@@ -27,10 +27,10 @@ if (isset($_SESSION['logado']['email']) and isset($_SESSION['logado']['senha']))
       <div class="col"></div>
 
       <div class="col-6">
-        <form action="./rotinas/autenticacao.php" method="POST">
-          <input type="email" name="email" id="email" placeholder="E-mail" />
-          <input type="password" name="senha" id="senha" placeholder="Senha" />
-          <p> Não tem uma conta? <a href="./cadastrar.html"> Crie uma. </a> </p>
+        <form action="./rotinas/autenticacao.php" method="POST" required />
+          <input type="email" name="email" id="email" placeholder="E-mail" required />
+          <input type="password" name="senha" id="senha" placeholder="Senha" required />
+          <p> Não tem uma conta? <a href="./cadastrar.php"> Crie uma. </a> </p>
           <input type="submit" value="Entrar">
         </form>
       </div>
